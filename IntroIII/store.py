@@ -11,6 +11,7 @@ class Store:
         ret = f"{self.name}\n"
         for i, c in enumerate(self.categories):
             ret += " " + str(i + 1) + ": " + c + "\n"
+        ret += " " + str(i + 2) + ": Exit"
 
         return ret
 
