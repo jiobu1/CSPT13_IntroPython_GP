@@ -1,3 +1,5 @@
+# inheritance is an is a relationship
+
 class Entity:
     def __init__(self, id, x, y):
         self.id = id
