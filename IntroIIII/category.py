@@ -4,7 +4,7 @@ class Category:
 
     def __init__(self, name, products):  #, products):
         self.name = name
-        self.products = products
+        self.products = products # has_a relationship
 
     def __str__(self):
         if len(self.products) == 0:

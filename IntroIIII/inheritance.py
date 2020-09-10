@@ -46,6 +46,7 @@ class Tile(Entity):
 
 m = Mob(0, 12, 10, 1) # is_a Entity
 p = Player(1, "Player 1", 10, 10, 2, 10, 5)
+t = Tile(200, 0, 0, "grass.png")
 
 
 print(m)
